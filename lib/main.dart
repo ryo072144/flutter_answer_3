@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exercise_3/widget.dart';
+import 'package:flutter_exercise_3/constants.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
             });
           },
         ),
-        title: Text('タイトル', style: titleStyle(),),
+        title: Text('タイトル', style: titleStyle,),
       ),
 
       //問５： _isToggleOnの値に応じて、色を変化させる。
